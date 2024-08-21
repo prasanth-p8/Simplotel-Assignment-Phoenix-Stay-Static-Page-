@@ -1,0 +1,362 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+@media screen and (min-width: 500px) {
+  .header-container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header-container {
+    padding: 0 15px;
+  }
+}
+
+.website-logo-container {
+  text-align: center;
+  width: 50px;
+}
+
+@media screen and (min-width: 500px) {
+  .website-logo-container {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .website-logo-container {
+    width: 100px;
+  }
+}
+
+.phoenix-stay-logo {
+  width: 40px;
+}
+
+@media screen and (min-width: 500px) {
+  .phoenix-stay-logo {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .phoenix-stay-logo {
+    width: 60px;
+  }
+}
+
+.website-name {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .website-name {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .website-name {
+    font-size: 0.9rem;
+  }
+}
+
+.nav-bar-items {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 500px) {
+  .nav-bar-items {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .nav-bar-items {
+    justify-content: space-around;
+  }
+}
+
+.nav-bar-item {
+  font-size: 0.8rem;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  color: #000;
+}
+
+@media screen and (min-width: 500px) {
+  .nav-bar-item {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .nav-bar-item {
+    font-size: 1.2rem;
+  }
+}
+
+.social-media-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  margin-right: 20px;
+}
+
+.icon-circle {
+  border: 1px #000 solid;
+  padding: 5px;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  color: #000;
+}
+
+.hotel-detail-container {
+  background-color: #b3afaf;
+}
+
+.hotel-banner-container {
+  margin-top: 10px;
+}
+
+.hotel-banner-img {
+  width: 100%;
+}
+
+.hotel-name-container {
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  background-image: linear-gradient(to right, #000000 10%, #949393);
+  width: 120px;
+  padding: 4px 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .hotel-name-container {
+    bottom: 60px;
+    left: 30px;
+    width: 160px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hotel-name-container {
+    bottom: 80px;
+    left: 40px;
+    width: 230px;
+    padding: 10px 20px;
+  }
+}
+
+.hotel-name-text {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .hotel-name-text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hotel-name-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+.hotel-amenities-container {
+  padding: 0 10px 10px 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .hotel-amenities-container {
+    padding: 0 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .hotel-amenities-container {
+    justify-content: space-between;
+    padding: 0 30px 30px 30px;
+  }
+}
+
+.amenities-description {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 500px) {
+  .amenities-description {
+    width: 90%;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .amenities-description {
+    width: 320px;
+    text-align: center;
+  }
+}
+
+.hotel-detail-amenities-container {
+  padding: 10px 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .hotel-detail-amenities-container {
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hotel-detail-amenities-container {
+    padding: 30px 40px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .amenities-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .hotel-amenities-heading {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .amenities-container {
+    justify-content: space-between;
+  }
+  .hotel-amenities-heading {
+    font-size: 1.9rem;
+  }
+}
+
+.each-amenities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 500px) {
+  .each-amenities-container {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .each-amenities-container {
+    width: 350px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}
+
+.amenities-img {
+  width: 60%;
+}
+@media screen and (min-width: 900px) {
+  .amenities-img {
+    width: 100%;
+  }
+}
+.amenities-heading {
+  margin-bottom: 0;
+}
+.amenities-detail-description {
+  margin-top: 10px;
+  font-weight: 500;
+  width: 250px;
+}
+
+.learn-more-button {
+  width: 130px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+}
+
+.dining {
+  align-items: center;
+  align-self: center;
+}
+
+.pool {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+
+.dining-desc {
+  text-align: center;
+}
+
+.pool-desc {
+  text-align: right;
+}
+
+.copyright-footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .copyright-footer {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .copyright-footer {
+    font-size: 1.5em;
+  }
+}
